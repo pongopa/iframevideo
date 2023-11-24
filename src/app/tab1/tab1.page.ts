@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import Plyr from 'plyr';
 
 @Component({
   selector: 'app-tab1',
@@ -9,7 +8,6 @@ import Plyr from 'plyr';
 export class Tab1Page {
 
   constructor() {
-    const player = new Plyr('#player');
   }
 
 }
